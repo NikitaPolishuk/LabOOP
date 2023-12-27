@@ -1,0 +1,13 @@
+public class Task5 {
+    public static void main(String[] args) {
+        System.out.println(GetFactorial(Integer.parseInt(args[0])));
+    }
+
+    public static int GetFactorial(int f) {
+    int result = 1;
+    for (int i = 1; i <= f; i++) {
+     result = result * i;
+    }
+    return result;
+ }
+}
